@@ -1,0 +1,75 @@
+/* общие стили */
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+}
+.container {
+  width: 1140px;
+  border: 1px SOLID BLACK;
+  margin: 0 auto;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+/* стили хэдера */
+header {
+  background-color: darkcyan;
+  display: flex;
+  justify-content: space-between;
+  height: 60px;
+  align-items: center;
+  font-weight: 600;
+}
+
+/* стили навигации */
+.main-menu {
+  background-color: darkturquoise;
+}
+
+.main-menu-list {
+  height: 50px;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+/* стилти контентной части */
+.content {
+  display: flex;
+}
+section {
+  background-color: #dbcedd;
+  flex: 4;
+  display: flex;
+  flex-wrap: wrap;
+}
+.section-item {
+  background-color: plum;
+  padding: 15px;
+  margin: 10px;
+  width: calc(50% - 20px);
+  box-sizing: border-box;
+}
+
+/* стили сайдбара */
+.news {
+  background-color: #ea80fc;
+}
+.sidebar-right {
+  background-color: #d500f9;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/* стили футера */
+footer {
+  background-color: #7b1fa2;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
