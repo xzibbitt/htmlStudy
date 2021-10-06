@@ -1,0 +1,140 @@
+/* Общие стили */
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+}
+.container {
+  width: 1920px;
+  border: 1px solid gold;
+  margin: 0 auto;
+}
+/* Контейнер */
+/* Хэдер */
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 80px;
+  box-shadow: 0px 15px 35px rgba(0, 0, 0, 0.1);
+}
+
+.contacts {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+/* Контент */
+
+.section {
+  width: 1145px;
+  margin: 0 auto;
+}
+/* Первый блок */
+.first-item {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 63px;
+  padding-bottom: 63px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 49px;
+  color: #424242;
+}
+
+/* Второй блок */
+.second-item {
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
+}
+.flowers h2 {
+  padding-top: 23px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #212121;
+}
+
+a {
+  text-decoration: none;
+}
+
+.flowers p {
+  width: 196px;
+  height: 66px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 140%;
+  text-align: center;
+  padding-bottom: 60px;
+  color: #424242;
+}
+.flowers {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* border: 1px solid gold; */
+}
+
+/* Третий блок */
+.quote {
+  border-top: 1px solid #ffb5b5;
+  border-bottom: 1px solid #ffb5b5;
+  font-style: italic;
+  font-weight: 300;
+
+  line-height: 150%;
+  text-align: center;
+  margin: 0;
+  color: #ff445a;
+  padding-top: 101px;
+  padding-bottom: 101px;
+}
+.quote-text {
+  margin: 0;
+  font-size: 32px;
+}
+.author {
+  padding-top: 24px;
+  margin: 0;
+  font-size: 24px;
+}
+/* Четвеертый блок */
+
+.last-item {
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.poem {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 150%;
+
+  color: #424242;
+}
+
+/* Футер */
+
+.footer {
+  display: flex;
+  width: 1920px;
+  height: 80px;
+  background: #ffb5b5;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 150%;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+}
