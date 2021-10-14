@@ -1,0 +1,300 @@
+/* общие стили */
+
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+/* стили хэдера */
+.header-top {
+  border-bottom: 1px solid #dedede;
+}
+
+.header-top-info {
+  display: flex;
+  justify-content: space-between;
+  height: 67px;
+  align-items: center;
+}
+.top-menu {
+  display: flex;
+  width: 945px;
+  justify-content: space-between;
+}
+
+.top-menu-left,
+.top-menu-right {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+}
+
+.top-menu-left a,
+.top-menu-right a {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 14px;
+  color: #424242;
+}
+
+.top-menu-left {
+  width: 352px;
+}
+
+.top-menu-right {
+  width: 340px;
+}
+.main-menu-list {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  height: 73px;
+  align-items: center;
+}
+
+.main-menu-list a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  color: #424242;
+}
+
+/* стили баннера */
+
+.main-banner {
+  background: #ffffff;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.banner-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.banner-info-offer a {
+  text-decoration: none;
+}
+
+.btn {
+  border-radius: 3px;
+  /* width: 200px;
+  height: 55px; */
+}
+
+.btn-prymary {
+  /* border: 1px solid #3a95ff; */
+  background-color: #3a95ff;
+  font-weight: 600;
+  font-size: 16px;
+  color: #ffffff;
+  padding: 17px 26px;
+}
+
+.secondary {
+  border: 1px solid #3a95ff;
+  font-weight: 600;
+  font-size: 16px;
+  color: #3a95ff;
+  padding: 17px 51px;
+  margin-left: 37px;
+}
+
+h1 {
+  margin-bottom: 63px;
+  font-weight: 600;
+  font-size: 52px;
+}
+
+/* стили контента */
+
+.content {
+  display: flex;
+}
+
+h1 {
+  margin-top: 70px;
+  margin-bottom: 24px;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 49px;
+  color: #000000;
+}
+
+.container p {
+  margin: 0;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+}
+
+section {
+  margin-top: 8px;
+  flex: 4;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.section-item {
+  display: flex;
+  width: 555px;
+  height: 300px;
+  background: #eff2f5;
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.05);
+  border-radius: 8px;
+  margin-top: 62px;
+  padding: 0;
+}
+
+.section-text {
+  padding-top: 34px;
+  padding-left: 34px;
+}
+
+.section-text p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 130%;
+  color: #424242;
+}
+
+.section-text h2 {
+  margin-top: 0;
+  margin-bottom: 24px;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 130%;
+  color: #212121;
+}
+
+.text1 {
+  width: 243px;
+}
+
+.text2 {
+  width: 178px;
+}
+
+/* 2 баннер */
+
+.credit-main {
+  background: #eff2f5;
+  margin-top: 110px;
+}
+
+.credit-main-info {
+  display: flex;
+  padding-top: 137px;
+  padding-bottom: 137px;
+  justify-content: space-between;
+}
+
+.card-info {
+  background: #e0e5ea;
+  box-shadow: -5px -5px 25px rgba(255, 255, 255, 0.25),
+    5px 5px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  box-sizing: border-box;
+  width: 750px;
+  height: 500px;
+}
+
+.credit-card {
+  display: flex;
+  justify-content: space-between;
+}
+
+.credit-app {
+  display: flex;
+  margin: 16px;
+  margin-left: 101px;
+  margin-right: 104px;
+  justify-content: space-between;
+}
+
+.card-type {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card-type-offer {
+  width: 360px;
+  height: 235px;
+  background: #f7f7f7;
+  box-shadow: -5px -5px 25px rgba(255, 255, 255, 0.25),
+    5px 5px 25px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  border-bottom: 5px solid #3a95ff;
+}
+
+.text-offer {
+  width: 159px;
+  height: 68px;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 130%;
+  color: #212121;
+  margin-top: 34px;
+  margin-left: 34px;
+}
+
+.arrow-offer {
+  display: flex;
+  justify-content: right;
+  margin-top: 51px;
+  margin-right: 34px;
+}
+
+.credit-card-txt {
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 130%;
+  color: #212121;
+  width: 346px;
+  height: 147px;
+  padding-top: 34px;
+  padding-left: 99px;
+}
+
+.limit {
+  width: 157px;
+  height: 97px;
+  align-items: center;
+  text-align: center;
+}
+
+.limit-figures {
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 130%;
+  color: #212121;
+  border-bottom: 1px solid #3a95ff;
+  margin-bottom: 6px;
+}
+
+.limit-text {
+  width: 96px;
+  height: 46px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 130%;
+  color: #424242;
+  padding-left: 34px;
+  margin-top: 6px;
+}
+
+.credit-btn {
+  margin-left: 94px;
+  margin-top: 40px;
+}
