@@ -68,6 +68,28 @@ ul {
   color: #424242;
 }
 
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3px;
+  font-weight: 600;
+  font-size: 16px;
+  text-decoration: none;
+  width: 200px;
+  height: 55px;
+  box-sizing: border-box;
+}
+
+.btn-prymary {
+  background-color: #3a95ff;
+  color: #ffffff;
+}
+
+.secondary {
+  border: 1px solid #3a95ff;
+  color: #3a95ff;
+}
 /* стили баннера */
 
 .main-banner {
@@ -81,36 +103,14 @@ ul {
   align-items: center;
 }
 
-.banner-info-offer a {
-  text-decoration: none;
+.banner-btn {
+  display: flex;
+  margin-bottom: 83px;
+  justify-content: space-between;
 }
 
-.btn {
-  border-radius: 3px;
-  /* width: 200px;
-  height: 55px; */
-}
-
-.btn-prymary {
-  /* border: 1px solid #3a95ff; */
-  background-color: #3a95ff;
-  font-weight: 600;
-  font-size: 16px;
-  color: #ffffff;
-  padding: 17px 26px;
-}
-
-.secondary {
-  border: 1px solid #3a95ff;
-  font-weight: 600;
-  font-size: 16px;
-  color: #3a95ff;
-  padding: 17px 51px;
-  margin-left: 37px;
-}
-
-h1 {
-  margin-bottom: 63px;
+.banner-info-offer h1 {
+  margin-bottom: 65px;
   font-weight: 600;
   font-size: 52px;
 }
@@ -207,6 +207,8 @@ section {
   box-sizing: border-box;
   width: 750px;
   height: 500px;
+  display: flex;
+  flex-direction: column;
 }
 
 .credit-card {
@@ -219,6 +221,7 @@ section {
   margin: 16px;
   margin-left: 101px;
   margin-right: 104px;
+  margin-bottom: 42px;
   justify-content: space-between;
 }
 
@@ -295,6 +298,8 @@ section {
 }
 
 .credit-btn {
-  margin-left: 94px;
-  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 99px;
+  padding-right: 219px;
 }
